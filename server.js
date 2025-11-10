@@ -46,6 +46,7 @@ app.use(passport.session());
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/tshirts', require('./routes/tshirtRoutes'));
 app.use('/api/settings', require('./routes/settingsRoutes'));
+app.use('/api/instagramPosts', require('./routes/instagramRoutes'));
 
 const PORT = process.env.PORT || 5000;
 
