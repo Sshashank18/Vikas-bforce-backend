@@ -11,7 +11,7 @@ const API_VERSION = 'v24.0';
 
 // --- The API Endpoint ---
 // This is the endpoint your React app will call
-app.get('/api/instagram-posts', async (req, res) => {
+app.get('/', async (req, res) => {
     
     // Check if the token is even in the .env file
     if (!INSTAGRAM_TOKEN) {
